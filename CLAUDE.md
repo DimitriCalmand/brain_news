@@ -180,6 +180,8 @@ Use `csv.DictWriter` with `extrasaction='ignore'` and append mode so existing ro
 
 ### Step 5 — Git push
 
+Always commit and push directly to `main`. Never create feature branches or sub-branches for this pipeline.
+
 ```bash
 git add brain_news.csv
 git commit -m "feat: brain news week of {week_start}"
@@ -187,6 +189,15 @@ git push origin main
 ```
 
 If the push fails because the remote is ahead, do `git pull --rebase origin main` first, then push again.
+
+If the session has checked out a non-main branch, switch back to main before committing:
+
+```bash
+git checkout main
+git add brain_news.csv
+git commit -m "feat: brain news week of {week_start}"
+git push origin main
+```
 
 ---
 
