@@ -75,7 +75,7 @@ Example search queries per topic:
 - AI chatbot or assistant product launches
 - Cryptocurrency or unrelated tech
 
-Each article must have: title, URL, publication date, 2–3 sentence plain-English summary, and a category from the table above.
+Each article must have: title, URL, publication date, a short 2–3 sentence plain-English summary (this is the compact version stored in the CSV — see Step 4), and a category from the table above. The Notion page write-up in Step 3 expands on this with more detail; the CSV summary stays short.
 
 ---
 
@@ -119,7 +119,9 @@ Page content structure:
 **Source:** [Article Title]({url})
 **Date:** {publication_date}
 
-{2–3 sentence summary in plain English, no jargon}
+{Full write-up — at least 5 sentences, plain English, no jargon. Explain what was done, how, and what the result was, in enough detail that someone who never clicks the link still understands the story: name the people/institutions involved, the method, the numbers/results, and the immediate implication. Give articles that represent a major or surprising advance noticeably more space (more sentences, more specifics) than routine or incremental ones — depth should track importance, not be uniform. It is NOT required to have the same number of articles per category or per week: skip or shorten minor stories and expand the ones that matter.}
+
+**Why it's a breakthrough:** {1–3 sentences on why this specific development matters for its theme — what barrier it removes, what wasn't possible before, or how it shifts the trajectory of the field. If a story is genuinely incremental with nothing new to say here, it's fine to omit this line rather than force a claim.}
 
 ---
 [group articles by category, one section per category that has articles]
